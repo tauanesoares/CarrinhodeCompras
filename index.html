@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src = "script.js" defer ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    
+<h1>carrinho de compras</h1>
+nome do item: <input id="nome"> 
+quantidade: <input id="quantidade">
+preço: <input id="preco">
+<button onclick="adicionarItem()">adicionar item</button>
+<table id="tabelaItensId">
+    <tr>
+        <th>Nome</th>
+        <th>quantidade</th>
+        <th>preço</th>
+    </tr>
+</table>
+<button onclick="fecharconta()">fechar a compra</button>
+
+<label id="fechamentolabel"></label>
+
+</body>
+</html>
